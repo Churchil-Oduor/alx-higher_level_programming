@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 str = "Holberton School"
-string = ""
-for i in range(3):
-    string += str
-
-print(string)
+print(f"{str}{str}{str}")
 print(str[0:9])
 
