@@ -10,7 +10,7 @@ if __name__ == '__main__':
     div = calculator_1.div(a, b)
     mul = calculator_1.mul(a, b)
 
-    print(f"{a} + {b} = {my_sum}")
-    print(f"{a} - {b} = {sub}")
-    print(f"{a} / {b} = {div}")
-    print(f"{a} * {b} = {mul}")
+    print("{} + {} = {}".format(a, b, my_sum))
+    print("{} - {} = {}".format(a, b, sub))
+    print("{} * {} = {}".format(a, b, mul))
+    print("{} / {} = {}".format(a, b, div))
