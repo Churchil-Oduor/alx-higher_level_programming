@@ -6,9 +6,3 @@ def print_reversed_list_integer(my_list=[]):
         element = my_list[length]
         print("{}".format(element))
         length -= 1
-
-    
-        
-
-
-
