@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-
+"""
+class square defines a square with private attribute :size
+"""
 class Square:
     """The size attribute is private.
 
