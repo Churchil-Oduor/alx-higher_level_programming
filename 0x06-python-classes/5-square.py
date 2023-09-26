@@ -49,8 +49,7 @@ class Square:
 
         l: length
         """
-        l = self.__size
-        for y in range(l):
-            for x in range(l):
+        for y in range(self.__size):
+            for x in range(self.__size):
                 print('{}'.format('#'), end="")
             print('\n')
