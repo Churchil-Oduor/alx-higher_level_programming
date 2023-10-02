@@ -5,4 +5,7 @@
 
 
 class Rectangle:
+    """
+    No implementation
+    """
     pass
