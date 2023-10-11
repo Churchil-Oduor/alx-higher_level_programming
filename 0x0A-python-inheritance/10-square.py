@@ -14,6 +14,10 @@ class BaseGeometry:
     '''
 
     def area(self):
+        '''
+        raises an exception
+        '''
+
         raise Exception('area() is not implemeted')
 
     '''integer_validator validates value.
@@ -62,6 +66,9 @@ class Rectangle(BaseGeometry):
     computes area
     '''
     def area(self):
+        '''
+        computes area
+        '''
         return (self.width * self.height)
 
 
@@ -76,4 +83,7 @@ class Square(Rectangle):
         self.__size = size
 
     def area(self):
+        '''
+        computes area.
+        '''
         return self.__size ** 2
