@@ -5,4 +5,7 @@
 
 
 class BaseGeometry:
+    '''Has no implementation
+    '''
+
     pass
