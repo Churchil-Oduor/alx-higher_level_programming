@@ -15,6 +15,8 @@ def say_my_name(first_name, last_name=""):
         raise TypeError("first_name must be a string")
     elif type(last_name) is not str:
         raise TypeError("last_name must be a string")
+    elif first_name == None and last_name == None:
+        raise TypeError("say_my_name() missing 1 required positional argument: \'first_name\'")
     else:
         message = "My name is {} {}"
         print(message.format(first_name, last_name))
