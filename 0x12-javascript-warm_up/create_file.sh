@@ -14,3 +14,5 @@ else
 	echo "No variables have been passed"
 
 fi
+
+# bash file written by Churchil for automation purposes
