@@ -11,9 +11,9 @@ if (length === 0 || isNaN(parseInt(argv[2]))) {
   let line = 'X';
 
   for (x = 0; x < length; x++) {
-    for (y = 0; y < length - 1; y++) {
+    for (y = 0; y < length; y++) {
       line += 'X';
     }
     console.log(line);
-  }
+  }  
 }
