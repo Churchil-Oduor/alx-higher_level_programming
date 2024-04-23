@@ -1,0 +1,4 @@
+# ignoring all the .main.js files because
+# they are used for tests
+
+*main.js
