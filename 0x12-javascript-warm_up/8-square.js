@@ -8,10 +8,10 @@ if (length === 0 || isNaN(parseInt(argv[2]))) {
   console.log('Missing size');
 } else {
   let x, y;
-  let line = 'X';
+  let line = '';
 
-  for (x = 0; x < length; x++) {
-    for (y = 0; y < length; y++) {
+  for (x = 0; x < argv[2]; x++) {
+    for (y = 0; y < argv[2]; y++) {
       line += 'X';
     }
     console.log(line);
