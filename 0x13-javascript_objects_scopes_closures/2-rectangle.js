@@ -1,12 +1,13 @@
 #!/usr/bin/node
 
-// This class defines a rectangle
 class Rectangle {
   width;
   height;
   constructor (w, h) {
-    this.width = w;
-    this.height = h;
+    if ((!isNaN(w) && w > 0) && (!isNaN(h) && h > 0)) {
+      this.width = w;
+      this.height = h;
+    }
   }
 }
 
