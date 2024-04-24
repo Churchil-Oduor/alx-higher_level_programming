@@ -1,8 +1,6 @@
 #!/usr/bin/node
 
 class Rectangle {
-  width;
-  height;
   constructor (w, h) {
     if ((!isNaN(w) && w > 0) && (!isNaN(h) && h > 0)) {
       this.width = w;
