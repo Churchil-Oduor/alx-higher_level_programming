@@ -15,5 +15,5 @@ if (length === 0 || isNaN(parseInt(argv[2]))) {
       line += 'X';
     }
     console.log(line);
-  }  
+  }
 }
