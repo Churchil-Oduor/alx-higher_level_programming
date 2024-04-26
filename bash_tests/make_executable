@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+# make all files in this directory executable
+chmod u+x *

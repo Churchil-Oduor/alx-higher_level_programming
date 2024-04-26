@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+
+# This bash script check the existence of passed directory
+# It accepts more then one directory for checks
+
+count=$# #check to see if argument(s) has been passed
+
+if [ $count -ge 1 ]
+then
+	for arg in "$@";
+	do
+		if [ -d "$arg" ]
+		then
+			echo "$arg exists"
+		else
+			echo "$arg does not exist"
+		fi
+	done
+else
+	echo "No directory(s) has been passed for existence check"
+fi
+
+# written by churchilokechoduor@gmail.com

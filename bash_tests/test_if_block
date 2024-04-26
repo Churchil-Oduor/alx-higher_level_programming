@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+
+device="/dev/sda"
+if [ -b "$device" ]
+then
+	echo "$device is a block device"
+fi
+
+# /dev/sda is a block device
+
+device2="/dev/ttyS1"
+if [ -c "$device2" ]
+then
+	echo "$device2 is a character device"
+fi
+# ttyS1 is a character device
