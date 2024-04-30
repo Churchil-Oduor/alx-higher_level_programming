@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script accepts the name of the filename and runs code
+sql_file=$1
+
+if [ "$sql_file" != "" ]; then # checking to see if db_name is passed.
+	cat "$sql_file"| mysql -hlocalhost -uroot -p churchil_db
+else
+	echo "Tiny Error: Please pass the sql file to work on -> ./run_sql file1.sql"
+
+fi
